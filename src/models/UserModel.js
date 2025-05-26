@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
     enum: ["organizer", "attendee", "admin"],
     default: "attendee",
   },
-  profileImage: {
+  profilePhoto: {
     type: String, // URL to profile image
     default: "",
   },
